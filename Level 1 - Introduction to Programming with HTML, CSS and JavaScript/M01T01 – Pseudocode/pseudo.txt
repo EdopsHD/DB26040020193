@@ -1,0 +1,72 @@
+ALGORITHM 1
+
+request integer from user
+
+if integer is larger than zero
+	request integer from user until integer is equal to zero
+	store the non-matching input in a list of inputs
+
+if integer is equal to zero
+	read first integer from list of non-matching inputs
+	read next integer from list of non-matching inputs
+
+	if next integer is larger than first
+		set the next integer as largest integer
+
+	if first integer is larger than next integer
+		set the first integer as largest integer
+
+	continue until full list of non-matching inputs is scanned
+	print largest integer
+
+ALGORITHM 2
+
+request input from the user
+store input into variable called "first_name"
+
+print "first_name"
+print "Hello, World."
+
+ALGORITHM 3
+
+set counter to zero
+
+add first integer from list to total
+add one to counter
+
+add next integer from list to total
+add one to counter
+continue until list is read through
+
+calculate the average of the integers by dividing the total by the value of the counter
+print average
+
+ALGORITHM 4
+
+read first product from grocery list in alphabetical order
+
+if product is not bought
+	add product to list of needed products
+	read next product in list
+
+if product is bought
+	read next product in list
+
+continue until grocery list is read through
+print list of needed products
+
+ALGORITHM 5
+
+read the inputs x and y
+
+calculate sum of x and y
+save sum as variable "S"
+
+
+divide "S" by 2
+save new value as variable "A"
+
+multiply x by y
+save new value as variable "P"
+
+print variables "S", "A", "P"
